@@ -16,7 +16,11 @@ public class DummyBot {
 
     }
     public static void main(String[] args){
-        DummyBot.answer("Привет, Бот.");
-        DummyBot.answer("Пока.");
+        String privetBot = DummyBot.answer("Привет, Бот.");
+        System.out.println(privetBot);
+        String pokaBot = DummyBot.answer("Пока.");
+        System.out.println(pokaBot);
+        String anotherQuestion = DummyBot.answer("Другой вопрос");
+        System.out.println(anotherQuestion);
     }
     }
